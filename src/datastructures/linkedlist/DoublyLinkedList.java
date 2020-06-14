@@ -1,4 +1,4 @@
 package datastructures.linkedlist;
 
-public class LinkedList {
+public class DoublyLinkedList {
 }

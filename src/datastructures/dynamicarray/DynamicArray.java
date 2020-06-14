@@ -38,7 +38,7 @@ public class DynamicArray {
 
     public void insert(int index, int num){
         resize();
-        // What if index is bigger than current size of array?
+        // TODO: What if index is bigger than current size of array?
         for(int i = this.size -1; i >= index;i--){
             this.a[i + 1] = this.a[i];
         }
