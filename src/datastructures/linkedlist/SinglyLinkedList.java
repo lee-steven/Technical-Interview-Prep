@@ -57,6 +57,40 @@ public class SinglyLinkedList {
         return currNode.data;
     }
 
+    public void insert(int index, int value){
+        Node currNode = head;
+
+        if(index >= size) {
+            throw new IndexOutOfBoundsException();
+        }
+        for(int i = 0; i < size; i++){
+            if(i == index){
+                Node newNode = new Node(value);
+                newNode.next = currNode.next;
+                currNode.next = newNode;
+                size++;
+                return;
+            }
+            currNode = currNode.next;
+        }
+    }
+
+    public void delete(int index){
+        Node currNode = head;
+        if(index >= size){
+            throw new IndexOutOfBoundsException();
+        }
+
+        for(int i = 0; i < size; i++){
+            if(i == index){
+                currNode.next = currNode.next.next;
+                size--;
+                return;
+            }
+            currNode = currNode.next;
+        }
+    }
+
     public int value_at(int index){
         int counter = 0;
         Node currNode = head.next;
@@ -68,6 +102,33 @@ public class SinglyLinkedList {
             counter++;
         }
         return -1;
+    }
+
+    public void remove_value(int value){
+        Node currNode = head;
+        for(int i = 0; i < size; i++){
+            if(currNode.next.data == value){
+                currNode.next = currNode.next.next;
+                size--;
+                return;
+            }
+            currNode = currNode.next;
+        }
+    }
+
+    public void reverse(){
+        Node prev = null;
+        Node curr = head.next;
+        Node next = null;
+
+        while(curr != null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        head.next = prev;
     }
 
     public boolean empty(){
@@ -94,9 +155,12 @@ public class SinglyLinkedList {
         linkedList.push_front(1);
         linkedList.push_front(4);
         linkedList.push_back(3);
-        linkedList.push_back(2);
+        linkedList.insert(2, 5);
+        linkedList.push_back(1);
+        linkedList.remove_value(1);
         linkedList.print();
-        System.out.println("VALUE AT : " + linkedList.value_at(4));
+        linkedList.reverse();
+        linkedList.print();
         System.out.println("SIZE OF LINKED LIST: " + linkedList.size());
     }
 }
