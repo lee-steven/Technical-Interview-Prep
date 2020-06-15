@@ -10,3 +10,13 @@ This repo will be used to keep myself responsible to continually learn
 the material. After studying for some amount of time, I hope to refactor this repo
 and make it a resource for others like me who struggle with the technical interview 
 and don't know where to start studying.
+
+## Leetcode solved
+
+<details>
+    <summary>Linked List</summary>
+
+   * [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/).
+
+</details>
+
