@@ -11,12 +11,23 @@ the material. After studying for some amount of time, I hope to refactor this re
 and make it a resource for others like me who struggle with the technical interview 
 and don't know where to start studying.
 
-## Leetcode solved
+## Leetcode Problems Solved
+<details>
+    <summary>Arrays</summary>
+
+   * TBD
+
+</details>
 
 <details>
     <summary>Linked List</summary>
 
-   * [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/).
+   * [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
+   * [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+   * [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+   * [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+   * [Middle of Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+
 
 </details>
 
