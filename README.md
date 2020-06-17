@@ -11,25 +11,12 @@ the material. After studying for some amount of time, I hope to refactor this re
 and make it a resource for others like me who struggle with the technical interview 
 and don't know where to start studying.
 
-## Leetcode Problems Solved
-<details>
-    <summary>Arrays</summary>
+## Table of Contents
 
-   * [Rotate Array](https://leetcode.com/problems/rotate-array/)
-   * [Two Sum](https://leetcode.com/problems/two-sum/)
-
-
-</details>
-
-<details>
-    <summary>Linked List</summary>
-
-   * [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
-   * [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
-   * [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
-   * [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
-   * [Middle of Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+* [Arrays](https://github.com/lee-steven/Technical-Interview-Prep/tree/master/src/datastructures/array)
+* [Linked Lists](https://github.com/lee-steven/Technical-Interview-Prep/tree/master/src/datastructures/linkedlist)
+* [Stacks](https://github.com/lee-steven/Technical-Interview-Prep/tree/master/src/datastructures/stack)
 
 
-</details>
+
 

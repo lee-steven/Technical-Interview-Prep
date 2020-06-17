@@ -1,4 +1,4 @@
-package datastructures.dynamicarray;
+package datastructures.array;
 
 public class DynamicArray {
     private int INITIAL_ARRAY_SIZE = 8;
