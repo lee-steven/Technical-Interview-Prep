@@ -15,7 +15,9 @@ and don't know where to start studying.
 <details>
     <summary>Arrays</summary>
 
-   * TBD
+   * [Rotate Array](https://leetcode.com/problems/rotate-array/)
+   * [Two Sum](https://leetcode.com/problems/two-sum/)
+
 
 </details>
 
