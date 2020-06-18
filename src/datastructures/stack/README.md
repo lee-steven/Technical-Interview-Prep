@@ -9,5 +9,8 @@ A stack data structure acts much in the same way, you can only access elements f
 top of the stack at a time. If you want to get an element at the bottom of the stack, you first have to
 remove everything on top of it — pretty annoying right?
 
+## Time Complexity
 **Add/Remove:** O(1) <br />
 **Search:** O(n)
+
+## Leetcode Problems
